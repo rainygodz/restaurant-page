@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #053B50;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  color: #77D970;
+  padding: 40px 30px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+li a {
+  cursor: pointer;
+  color: #77D970;
+  text-decoration: none;
+
+  transition: color 0.35s linear;
+}
+
+li a:hover {
+  color: #FFFFFF;
+}
