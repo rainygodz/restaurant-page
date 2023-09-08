@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #053B50;
+  font-family: 'Abhaya Libre', serif;
+}
+
+#content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   background-color: #053B50;
   display: flex;
@@ -39,9 +50,11 @@ li a:hover {
 main {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 20px;
   padding: 0 80px;
   background-color: #053B50;
+  flex-grow: 1;
 }
 
 .left {
@@ -83,5 +96,20 @@ main {
 
 .right img {
   width: 500px;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 30px 0;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.github-icon img {
+  width: 20px;
   height: auto;
 }
