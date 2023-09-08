@@ -35,3 +35,53 @@ li a {
 li a:hover {
   color: #FFFFFF;
 }
+
+main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 80px;
+  background-color: #053B50;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.text {
+  color: #77D970;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+#big-text {
+  font-size: 80px;
+}
+
+#small-text {
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+#check-menu {
+  background-color: #053B50;
+  color: #77D970;
+  border: 1px solid #77D970;
+  border-radius: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+
+  transition: all 0.35s linear;
+}
+
+#check-menu:hover {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.right img {
+  width: 500px;
+  height: auto;
+}
