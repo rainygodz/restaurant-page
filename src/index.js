@@ -1,3 +1,3 @@
-import createHeader from "./home";
+import createHomePage from "./home";
 
-createHeader();
+createHomePage();
