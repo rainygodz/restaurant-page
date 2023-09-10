@@ -86,12 +86,42 @@ function createMain() {
 }
 
 
+function createFooter() {
+  const footer = document.createElement("footer");
+
+  const author = document.createElement("div");
+  author.classList.add("author");
+  author.textContent = "rainygodz";
+
+  footer.appendChild(author);
+  
+  const githubIcon = document.createElement("div");
+  githubIcon.classList.add("github-icon");
+
+  const a = document.createElement("a");
+  a["href"] = "https://github.com/rainygodz";
+  a["target"] = "_blank";
+
+  const img = document.createElement("img");
+  img["src"] = "./images/github-mark-white.png";
+  a.appendChild(img);
+
+  githubIcon.appendChild(a);
+
+  footer.appendChild(githubIcon);
+
+
+  content.appendChild(footer);
+}
+
+
 export default function createHomePage() {
   createHeader();
   createMain();
+  createFooter();
 }
 
 export {
   createHeader,
-  createMain
+  createFooter
 }
