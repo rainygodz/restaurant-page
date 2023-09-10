@@ -113,3 +113,62 @@ footer {
   width: 20px;
   height: auto;
 }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+}
+
+.menu-title {
+  color: #77D970;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.meal {
+  align-self: flex-start;
+}
+
+.dish {
+  width: 420px;
+  height: 520px;
+  border: 5px solid #77D970;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.name {
+  font-size: 26px;
+  font-weight: 700;
+  color: #FFFFFF;
+  align-self: flex-start;
+}
+
+.image img {
+  width: 300px;
+  height: auto;
+  border-radius: 25%;
+}
+
+.description {
+  color: #FFFFFF;
+}
+
+.price {
+  align-self: flex-end;
+  font-weight: 700;
+  font-size: 22px;
+  color: #FFFFFF;
+}
