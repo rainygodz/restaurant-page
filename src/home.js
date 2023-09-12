@@ -17,6 +17,7 @@ function createHeader() {
   for (let i = 0; i < anchorTexts.length; i++) {
     const li = document.createElement("li");
     const a = document.createElement("a");
+    a.setAttribute("id", anchorTexts[i]);
     a["href"] = "#";
     a.textContent = anchorTexts[i];
     li.appendChild(a);
