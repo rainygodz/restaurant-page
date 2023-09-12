@@ -172,3 +172,12 @@ footer {
   font-size: 22px;
   color: #FFFFFF;
 }
+
+.contact .title {
+  color:#77D970;
+}
+
+.number, .adress {
+  color: #FFFFFF;
+  font-size: 22px;
+}
